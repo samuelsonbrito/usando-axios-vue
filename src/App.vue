@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  	<div v-formato.maiusculo>Listas</div>
   	<lv-lista titulo="Aviões" :lista="avioes"></lv-lista>
   	<lv-lista titulo="Carros" :lista="carros"></lv-lista>
   </div>
